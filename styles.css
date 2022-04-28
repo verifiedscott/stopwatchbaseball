@@ -1,0 +1,30 @@
+.base{
+    position: flex;
+    height:13px;
+    width:13px;
+    -webkit-transform: rotate(-45deg);
+    border:1px solid black;
+    background-color:white;
+    z-index: 1000;
+}
+#first-base {
+    top:100px;
+    left: 150px;
+    background-color:white;
+}
+#second-base{
+    top:50px;
+    left:100px;
+    background-color:white;
+}
+#thrid-base{
+    top:100px;
+    left: 50px;
+    background-color:white;
+}
+
+.buttons {
+    justify-content: space-evenly;
+    justify-items: space-evenly;
+    position: flex;
+}
